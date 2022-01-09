@@ -1,9 +1,13 @@
 #include<stdio.h>
+
+// Updated
 int sum(int arr[], int n) {
- for (int i=0;i<n;i++){
- arr[i] += 5;
+ int s = 0;
+ int i;
+ for (i=0;i<n;i++){
+ s += arr[i];
  }
- Return arr[n-1];
+ return s;
 }
 int main() {
  int arr[100];
