@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int sum(int arr[], int n) {
+    int s = 0;
+    int i;
     for (int i=0;i<n;i++){
     arr[i] += 5;
     }
